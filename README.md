@@ -14,7 +14,7 @@ For a more detailed explanation of the model architecture, please refer to the c
 ## Results
 After running the experiment, the model achieved an accuracy of 95% on the test dataset, showcasing its effectiveness in classifying football videos. The confusion matrix also demonstrated reliable performance across the fouls, scoring, and red cards categories.
 
-* The project is still ongoing, with the team working on cloning a voice to these videos. This voice cloning aims to provide commentary or additional audio context to enhance the viewing experience. *
+**The project is still ongoing, with the team working on cloning a voice to these videos. This voice cloning aims to provide commentary or additional audio context to enhance the viewing experience. **
 
 ## Contributing
 The project is done by me and two other friends. Contributions to this project are welcome! If you have any suggestions, bug fixes, or additional features, please submit a pull request. For major changes, please open an issue first to discuss the proposed changes.
