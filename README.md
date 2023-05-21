@@ -6,6 +6,13 @@ Video classification plays a crucial role in understanding and analyzing sports 
 
 The code in this repository implements a sequence model using Keras and TensorFlow libraries. It includes data preprocessing, model training, and evaluation steps.
 
+## Dataset
+The football video dataset used in this project was obtained from Kaggle. You can access the dataset using the following link: Football Match Actions Video Dataset.`https://www.kaggle.com/datasets/itarek898/football-match-actions-video-dataset` The dataset contains trimmed football videos that are labeled with fouls, scoring, and red cards actions.
+
+Before using the dataset, it is recommended to preprocess the data and split it into training, validation, and test sets. To assist with the preprocessing steps, a Jupyter Notebook file named dataset.ipynb has been included in this repository. This notebook provides code and instructions for performing basic pre-processing tasks, such as data cleaning, feature extraction, and splitting the dataset into training, validation, and test sets.
+
+Make sure to run the dataset.ipynb notebook to preprocess the data before running the code in the main project files.
+
 ## Model Architecture
 The football video classification model used in this project is based on LSTM networks. It consists of bidirectional LSTM layers followed by a single LSTM layer. Batch normalization is applied to normalize the output, and fully connected layers with dropout regularization are used for classification. The model is trained using the Adam optimizer with a learning rate of 0.001 and sparse categorical cross-entropy as the loss function.
 
