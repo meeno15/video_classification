@@ -12,7 +12,7 @@ The football video classification model used in this project is based on LSTM ne
 For a more detailed explanation of the model architecture, please refer to the code comments in the get_sequence_model() function.
 
 ## Results
-After running the experiment, the model achieved an accuracy of 95% on the test dataset, showcasing its effectiveness in classifying football videos. The confusion matrix also demonstrated reliable performance across the fouls, scoring, and red cards categories.
+After running the experiment, the model achieved an accuracy of 91% on the test dataset, showcasing its effectiveness in classifying football videos. The confusion matrix also demonstrated reliable performance across the fouls, scoring, and red cards categories.
 ![1](https://github.com/meeno15/video_classification/assets/57276152/3e6eaa99-37be-4d4a-b326-c321ccad39e6)
 ![2](https://github.com/meeno15/video_classification/assets/57276152/f347236a-7919-4472-a178-d9bb1cfb43ec)
 ![3](https://github.com/meeno15/video_classification/assets/57276152/1503264f-d485-42d5-9181-d95d7857d6d8)
